@@ -8,3 +8,7 @@ Zookeeper中的角色主要有以下三类
 - 观察者（ObServer）：Observer可以接收客户端连接，将写请求转发给Leader节点。但Observer不参加投票过程，只同步Leader的状态。Observer的目的是为了扩展系统，提高读取速度<br/>
 
 客户端（Client）：请求发起方
+
+系统模型图：
+
+![Image of Service](http://static.oschina.net/uploads/img/201308/08171345_l5K3.jpg)
